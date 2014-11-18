@@ -1,0 +1,48 @@
+node {
+	size: 30px;
+	fill-mode: plain;
+	stroke-mode: plain;
+	stroke-color: black;
+	stroke-width: 3px;
+	fill-color: white;
+}
+	
+node.active {
+	fill-color: blue;
+}
+
+node.processing {
+	fill-color: yellow;
+}
+
+node.saturated {
+	fill-color: red;
+}
+
+node.notified {
+	fill-color: #00CC00;
+}
+
+sprite {
+	size: 0px;
+	text-size: 10;
+	text-color: white;
+	text-style: bold;
+	text-background-mode: rounded-box;
+	text-background-color: #5d0074C4;
+	text-padding: 2px;
+}
+
+edge {
+	z-index: -2;
+}
+
+sprite.message {
+	size: 10px;
+	z-index: -1;
+	fill-color: #ff2596;
+}
+
+sprite.sent {
+	size: 0px;
+}
